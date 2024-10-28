@@ -4,4 +4,4 @@ node_modules
 
 # webapp
 public/images/*
-.next
+.next/*
