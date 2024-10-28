@@ -1,2 +1,7 @@
-pr
+# repo
 node_modules
+.prettier*
+
+# webapp
+public/images/*
+.next
