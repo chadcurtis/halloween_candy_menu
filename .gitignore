@@ -3,5 +3,5 @@ node_modules
 .prettier*
 
 # webapp
-public/images/*
+public/images/candy/*
 .next/*

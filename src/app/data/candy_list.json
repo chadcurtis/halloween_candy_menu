@@ -1,0 +1,49 @@
+{
+    "candy": [
+        {
+          "name": "Hershey's Chocolate",
+          "image": "/images/candy/hersheys_bar.png",
+          "available": true
+        },
+        {
+          "name": "Hershey's with Almonds",
+          "image": "/images/candy/hersheys_almond_chocolate_bar.png",
+          "available": true
+        },
+        {
+          "name": "KitKat",
+          "image": "/images/candy/kitkat.png",
+          "available": true
+        },
+        {
+          "name": "MilkyWay",
+          "image": "/images/candy/milkyway.png",
+          "available": true
+        },
+        {
+          "name": "M&M's",
+          "image": "/images/candy/mm.png",
+          "available": true
+        },
+        {
+          "name": "M&M's Peanuts",
+          "image": "/images/candy/mm_peanut.png",
+          "available": true
+        },
+        {
+          "name": "Reese's Cup",
+          "image": "/images/candy/reeses.png",
+          "available": true
+        },
+        {
+          "name": "Snickers",
+          "image": "/images/candy/snickers.png",
+          "available": true
+        },
+        {
+          "name": "Twix",
+          "image": "/images/candy/twix.png",
+          "available": true
+        }
+    ]
+}

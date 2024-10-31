@@ -1,36 +1,53 @@
+# Halloween Candy Dashboard
+
+![A demo of the dashboard](./public/images/demo.png)
+
+This is a simple dashboard to display a selection of candy available for trick-or-treaters on Halloween. In its current state, up to 9 candy options can be rendered cleanly on a 16:9 screen.
+
+To add candy options, refer to the example in [src/app/data/candy_list.json](src/app/data/candy_list.json). This is a JSON configuration file that defines an array of objects under the `candy` key. Each item (candy selection) in the array uses the following format:
+
+```
+{
+    name: "Candy Name"
+    image: "/path/to/candy_image.jpg" (relative to ./public/, e.x., /images/candy/my_candy.jpg)
+    available: true
+}
+```
+
+- `name` - The name to display for your candy selection.
+- `image` - A path to an image of the candy, relative to [./public](./public/). The setup in this repo stores candy images under [./public/images/candy](./public/images/candy/).
+- `available` - A Boolean value to represent if the candy is available or not. If `true`, the candy selection will render as normal; if `false`, the candy image will be greyed out with an 'OUT OF STOCK' label.
+
+## Setup
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Building the application
 
-First, run the development server:
+First, before viewing your site, you'll need to build it via one of the following commands:
 
 ```bash
-npm run dev
+npm run build
 # or
-yarn dev
+yarn build
 # or
-pnpm dev
+pnpm build
 # or
-bun dev
+bun build
+```
+
+## Starting the application
+
+First, before viewing your site, you'll need to build it via one of the following commands:
+
+```bash
+npm run start
+# or
+yarn start
+# or
+pnpm start
+# or
+bun start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
